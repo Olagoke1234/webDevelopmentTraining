@@ -50,6 +50,10 @@ body {
   width: 410px;
 }
 
+#small_screen_text {
+  display: none;
+}
+
 #form_div {
   background-color: rgba(240, 246, 245, 0.2);
   padding: 25px;
@@ -142,7 +146,7 @@ svg {
     margin: 0 auto;
   }
   #intro_info {
-    padding: 25px;
+    padding: 20px;
   }
   #intro_info img {
     width: 50px;
@@ -199,6 +203,12 @@ svg {
     width: 300px;
     font-size: 13px;
   }
+  #small_screen_text {
+    display: block;
+  }
+  #large_screen_text {
+    display: none;
+  }
 }
 
 /* Styling for small devices 660px */
@@ -218,6 +228,6 @@ svg {
   }
   #intro_info p {
     width: 300px;
-    font-size: 12px;
+    font-size: 15px;
   }
 }
