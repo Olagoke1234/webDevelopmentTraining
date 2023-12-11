@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(229, 229, 229);
+  padding: 40px;
+}
+
+#signup a,
+#signup span {
+  text-decoration: none;
+  color: rgb(183, 183, 183);
+  font-size: 14px;
+}
+
+#signup a:hover {
+  color: rgb(46, 196, 182);
+  font-weight: bold;
+}
+
+#container1 {
+  display: flex;
+  background-color: rgb(247, 253, 252);
+  /* max-width: 800px; */
+  justify-content: center;
+  margin-right: 20px;
+  padding: 50px 100px;
+}
+
+#container1 img {
+  margin-bottom: 60px;
+}
+
+#intro_info {
+  margin-right: 50px;
+  margin-top: -200px;
+}
+
+#intro_info h1 {
+  color: rgb(17, 27, 26);
+  font-size: 40px;
+}
+
+svg {
+  position: relative;
+  top: -57px;
+  right: -400px;
+}
+
+#intro_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#intro_info img {
+  margin-bottom: 10px;
+  margin-left: -5px;
+}
+
+#intro_info p {
+  color: rgb(115, 115, 115);
+  font-size: 15px;
+  width: 410px;
+}
+
+#form_div {
+  background-color: rgba(240, 246, 245, 0.2);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  padding: 55px;
+  border-radius: 8px;
+}
+
+.partitioning {
+  display: flex;
+}
+
+label {
+  color: rgb(19, 44, 66);
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.partitioning > div input {
+  color: rgb(19, 44, 66);
+  margin-bottom: 20px;
+  margin-right: 15px;
+  padding: 10px;
+  width: 200px;
+  font-size: 13px;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+#firstName {
+  border: 1px solid blue;
+  font-weight: bold;
+}
+
+#gender {
+  color: rgb(19, 44, 66);
+  margin-bottom: 20px;
+  margin-right: 15px;
+  padding: 10px;
+  width: 200px;
+  font-size: 13px;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+#activity {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+#password {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+#btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(46, 196, 182);
+  color: white;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+#footer {
+  font-size: 13px;
+  text-align: center;
+}
