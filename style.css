@@ -1,3 +1,4 @@
+/* Styling for large screens > 1200px */
 * {
   margin: 0;
   padding: 0;
@@ -131,7 +132,7 @@ svg {
   font-size: 13px;
   text-align: center;
 }
-
+/* Styling for medium devices < 1200px */
 @media screen and (max-width: 1200px) {
   #container1 {
     flex-direction: column;
@@ -150,7 +151,7 @@ svg {
   }
   #intro_info h1 {
     color: rgb(17, 27, 26);
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 30px;
   }
   #signup {
@@ -160,5 +161,63 @@ svg {
   svg {
     top: -57px;
     right: -350px;
+  }
+}
+
+/* Styling for small devices 700px */
+@media screen and (max-width: 700px) {
+  #container1 {
+    padding: 200px 20px 20px 20px;
+  }
+  .partitioning {
+    flex-direction: column;
+  }
+  .partitioning > div input {
+    width: 100%;
+    font-size: 12px;
+  }
+  label {
+    font-size: 13px;
+  }
+  #gender {
+    width: 100%;
+  }
+  svg {
+    top: -57px;
+    right: -330px;
+  }
+  #intro_info img {
+    width: 40px;
+    height: 40px;
+  }
+  #intro_info h1 {
+    color: rgb(17, 27, 26);
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  #intro_info p {
+    width: 300px;
+    font-size: 13px;
+  }
+}
+
+/* Styling for small devices 660px */
+@media screen and (max-width: 660px) {
+  svg {
+    bottom: 10%;
+    left: 85%;
+  }
+  #intro_info img {
+    width: 35px;
+    height: 35px;
+  }
+  #intro_info h1 {
+    color: rgb(17, 27, 26);
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  #intro_info p {
+    width: 300px;
+    font-size: 12px;
   }
 }
