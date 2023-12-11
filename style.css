@@ -23,41 +23,24 @@ body {
 #container1 {
   display: flex;
   background-color: rgb(247, 253, 252);
-  /* max-width: 800px; */
   justify-content: center;
-  margin-right: 20px;
   padding: 50px 100px;
-}
-
-#container1 img {
-  margin-bottom: 60px;
-}
-
-#intro_info {
-  margin-right: 50px;
-  margin-top: -200px;
-}
-
-#intro_info h1 {
-  color: rgb(17, 27, 26);
-  font-size: 40px;
-}
-
-svg {
-  position: relative;
-  top: -57px;
-  right: -400px;
 }
 
 #intro_info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 50px;
+  margin-top: -200px;
+}
+#intro_info img {
+  margin-bottom: 60px;
 }
 
-#intro_info img {
-  margin-bottom: 10px;
-  margin-left: -5px;
+#intro_info h1 {
+  color: rgb(17, 27, 26);
+  font-size: 40px;
 }
 
 #intro_info p {
@@ -129,6 +112,12 @@ label {
   border: 1px solid rgb(241, 241, 241);
 }
 
+svg {
+  position: relative;
+  top: -57px;
+  right: -400px;
+}
+
 #btn {
   width: 100%;
   padding: 10px;
@@ -141,4 +130,35 @@ label {
 #footer {
   font-size: 13px;
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #container1 {
+    flex-direction: column;
+    height: auto;
+    padding: 250px 30px 30px 30px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #intro_info {
+    padding: 25px;
+  }
+  #intro_info img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  #intro_info h1 {
+    color: rgb(17, 27, 26);
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  #signup {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  svg {
+    top: -57px;
+    right: -350px;
+  }
 }
