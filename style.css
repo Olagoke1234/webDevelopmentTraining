@@ -117,6 +117,7 @@ label {
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid rgb(241, 241, 241);
+  font-size: 13px;
 }
 
 #password {
@@ -145,7 +146,13 @@ svg {
 #footer {
   font-size: 13px;
   text-align: center;
+  display: block;
 }
+
+#footer2 {
+  display: none;
+}
+
 /* Styling for medium devices < 1200px */
 @media screen and (max-width: 1200px) {
   #container1 {
@@ -187,7 +194,7 @@ svg {
     display: block;
   }
   #container1 {
-    padding: 200px 20px 20px 20px;
+    padding: 200px 5px 20px 5px;
   }
   .partitioning {
     flex-direction: column;
@@ -216,14 +223,25 @@ svg {
     margin-top: 25px;
   }
   #intro_info p {
-    width: 300px;
-    font-size: 13px;
+    width: 100%;
+    font-size: 18px;
   }
   #small_screen_text {
     display: block;
+    font-size: 14px;
   }
   #large_screen_text {
     display: none;
+  }
+  #footer {
+    display: none;
+  }
+  #footer2 {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
   }
 }
 
@@ -243,7 +261,10 @@ svg {
     margin-top: 25px;
   }
   #intro_info p {
-    width: 250px;
-    font-size: 15px;
+    width: 100%;
+    font-size: 18px;
+  }
+  #small_screen_text {
+    display: block;
   }
 }
